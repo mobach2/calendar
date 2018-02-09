@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calendar.Domain
+namespace Calendar.Domain.Entities
 {
-    public class Class1
+    class Activity
     {
+        public Guid AcitivityID { get; set; }
     }
 }
